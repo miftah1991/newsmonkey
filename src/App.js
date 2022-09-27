@@ -1,11 +1,12 @@
 import Nav from './Components/Nav';
-import News from './Components/News'
+import NewsList from './Components/NewsList';
 function App() {
+  const pagesize = 5;
   return (
     <>
       <Nav />
       <div className='container'>
-          <News />
+          <NewsList pagesize={pagesize} />
       </div>
 
     </>

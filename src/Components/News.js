@@ -10,7 +10,7 @@ function News(props) {
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{description}</p>
                         <p className="card-text"><small className="text-muted">By {!author ? "Unknown" : author} on  {new Date(publishedAt).toGMTString()}</small></p>
-                        <a href={url} className="btn btn-primary">read more</a>
+                        <a href={url} className="btn btn-primary" target={'_blank'}>read more</a>
                     </div>
             </div>
         </>
