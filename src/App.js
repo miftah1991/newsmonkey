@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Nav from './Components/Nav';
+import News from './Components/News'
 function App() {
   return (
     <>
-      <h1>Hello world</h1>
+      <Nav />
+      <div className='container'>
+          <News />
+      </div>
+
     </>
   );
 }
